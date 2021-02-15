@@ -23,7 +23,7 @@
 
 /* ---------- Constant ---------- */
 * {
-  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 body {
@@ -179,7 +179,6 @@ section {
 /* ---------- Features ----------*/
 .feature {
   position: relative;
-  overflow: hidden;
 }
 
 .feature::before {
@@ -228,10 +227,6 @@ section {
   font-size: 0.85em;
   line-height: 1.8em;
   font-weight: 500;
-}
-
-.inner {
-  overflow: hidden;
 }
 
 /* ---------- Skills ---------- */

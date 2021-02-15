@@ -22,10 +22,11 @@
 }
 /* ---------- Constant ---------- */
 * {
-   overflow-x: hidden;
+   max-width: 100vw;
 }
 body {
    overflow-x: hidden;
+
    height: 100vh;
    margin: 0;
    font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -148,7 +149,6 @@ section {
 /* ---------- Features ----------*/
 .feature {
    position: relative;
-   overflow: hidden;
 }
 .feature::before {
    content: "";
@@ -194,9 +194,6 @@ section {
    line-height: 1.8em;
 
    font-weight: 500;
-}
-.inner {
-   overflow: hidden;
 }
 /* ---------- Skills ---------- */
 .skills {
