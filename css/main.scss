@@ -21,6 +21,9 @@
    --radius: 0.85rem;
 }
 /* ---------- Constant ---------- */
+* {
+   overflow-x: hidden;
+}
 body {
    overflow-x: hidden;
    height: 100vh;
