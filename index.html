@@ -4,29 +4,45 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+         name="description"
+         content="This is a portfolio website in which display My software development skills and the projects I built."
+      />
+      <meta name="author" content="Abdelrahman Essam Arabi" />
       <title>Abdelrahman's Portfolio</title>
-      <link rel ="stylesheet" href="css/main.css"
+      <meta
+         name="keywords"
+         content="HTML, CSS, JavaScript, React, Software Engineer, developer, Front-End, Back-End, databases, Computer science, Job, Recruiter, vacancy, web developer, IT "
+      />
+      <link rel="stylesheet" href="css/main.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+         crossorigin="anonymous"
+      />
    </head>
    <body>
+      <!-- ***************  ABOUT / PROFILE  **************** -->
       <div class="nav-container">
          <header>
             <a href="index.html" class="logo"> Home </a>
             <nav>
                <ul>
-                  <li><a href="#">My Work</a></li>
-                  <li><a href="#">My Skills</a></li>
-                  <li><a href="#">Hire Me</a></li>
+                  <li><a class="to-skills" href="#">My Skills</a></li>
+                  <li><a class="to-work" href="#">My Work</a></li>
+                  <li><a class="to-contact" href="#">Reach Me</a></li>
                </ul>
             </nav>
          </header>
       </div>
       <div class="hero">
          <div class="content">
-            <h1 class="intro">
+            <h1 class="intro stagger1">
                A Computer Science Honor graduate, Interested in Development and
                problem solving.
             </h1>
-            <div class="meet-me">
+            <div class="meet-me stagger1">
                <p>Hi 👋 I am Abdelrahman Essam</p>
             </div>
             <svg
@@ -34,7 +50,7 @@
                width="40"
                height="77"
                viewBox="0 0 40 77"
-               class="scroll"
+               class="scroll stagger1"
             >
                <g id="scroll" transform="translate(-253 -787)">
                   <g
@@ -56,6 +72,7 @@
                      />
                   </g>
                   <circle
+                     class="circle"
                      id="Ellipse_1"
                      data-name="Ellipse 1"
                      cx="11"
@@ -67,8 +84,15 @@
                </g>
             </svg>
             <br />
-            <button class="resume-button">Download Resume</button>
-            <img class="hi-avatar" src="./Pics/hi-avatar.png" alt="" />
+            <div class="stagger1">
+               <button class="resume-button">Download Resume</button>
+            </div>
+
+            <img
+               class="hi-avatar stagger2"
+               src="./Pics/hi-avatar.png"
+               alt="Greeting Avatar"
+            />
          </div>
          <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -156,23 +180,28 @@
       </div>
       <section class="feature">
          <div class="left">
-            <div class="inner transition2">
-               <p class="subtitle">What Can I do?</p>
+            <div class="inner">
+               <p class="subtitle">Who's this guy?</p>
                <p class="feature-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Suscipit, commodi!
+                  I'm Software Engineer Located in Cairo, Egypt.<br />
+                  I have serious passion For Coding and building Apps.<br />
+                  2020 BUE Graduate 🎓.
                </p>
-               <img class="avatar" src="./Pics/Avatar.png" alt="Avatar" />
+               <img
+                  class="avatar avatar-transition"
+                  src="./Pics/Avatar.png"
+                  alt="Avatar"
+               />
             </div>
          </div>
-         <img src="./Pics/tech.png" alt="Technologies" width="100%" />
+         <img class="tech" src="./Pics/tech.png" alt="Technologies" />
       </section>
       <section class="skills">
          <div class="skills-container">
             <ul>
-               <li>
+               <li class="transition2">
                   <div class="icon-container">
-                     <img src="./Pics/icons8-web-64.png" alt="" />
+                     <img src="./Pics/icons8-web-64.png" alt="front-end icon" />
                   </div>
                   <p class="skill-title">Front-End</p>
                   <p class="featured-desc skill-desc">
@@ -184,9 +213,12 @@
                      Material UI
                   </p>
                </li>
-               <li>
+               <li class="transition2">
                   <div class="icon-container">
-                     <img src="./Pics/icons8-server-64.png" alt="" />
+                     <img
+                        src="./Pics/icons8-server-64.png"
+                        alt="Back-End icon"
+                     />
                   </div>
                   <p class="skill-title">Back-End</p>
                   <p class="featured-desc skill-desc">
@@ -195,9 +227,12 @@
                      php
                   </p>
                </li>
-               <li>
+               <li class="transition2">
                   <div class="icon-container">
-                     <img src="./Pics/icons8-database-64.png" alt="" />
+                     <img
+                        src="./Pics/icons8-database-64.png"
+                        alt="Database icon"
+                     />
                   </div>
                   <p class="skill-title">Database</p>
                   <p class="featured-desc skill-desc">
@@ -206,12 +241,12 @@
                      Firebase
                   </p>
                </li>
-               <li>
+               <li class="transition2">
                   <div class="icon-container">
                      <img
+                        class="transition2"
                         src="./Pics/icons8-iphone-x-64.png"
-                        width="100%"
-                        alt=""
+                        alt="Phone icon"
                      />
                   </div>
                   <p class="skill-title">Mobile Development</p>
@@ -222,6 +257,8 @@
             </ul>
          </div>
       </section>
+
+      <!-- ************ PROJECTS / PORTFOLIO  ************** -->
       <section class="portfolio">
          <div class="portfolio-container transition3">
             <div class="portfolio-left">
@@ -229,17 +266,21 @@
                   <p class="subtitle">Netflix Clone</p>
                   <p class="feature-title">React web-app</p>
                   <p class="feature-desc">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Similique nulla quam, rem facere libero deleniti velit nam
-                     totam aut ea?
+                     Built A react application display Movies data fetched from
+                     the movie database categorized in a responsive design
+                     inspired by netflix using react-hooks and context-api.
                   </p>
                </div>
             </div>
-            <img src="./Pics/netflix.png" width="100%" alt="" />
+            <img src="./Pics/netflix.png" alt="Netflix clone Project" />
             <br />
-            <a href="#">Demo</a>
+            <a href="https://netflix-clone-ae.web.app/" target="_blank">Demo</a>
             |
-            <a href="#">Code</a>
+            <a
+               href="https://github.com/AbdelrahmanEssamA/Netflix-clone"
+               target="_blank"
+               >Code</a
+            >
          </div>
          <div class="portfolio-container transition3">
             <div class="portfolio-left">
@@ -247,17 +288,25 @@
                   <p class="subtitle">Hotel Booking</p>
                   <p class="feature-title">Website</p>
                   <p class="feature-desc">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Similique nulla quam, rem facere libero deleniti velit nam
-                     totam aut ea?
+                     Designed a functional website (Front-End and Back-End) from
+                     scratch using HTML, CSS, JavaScript, PHP and My Sql for
+                     hotels reservation.
                   </p>
                </div>
             </div>
-            <img src="./Pics/hotelBooking.png" width="100%" alt="" />
+            <img src="./Pics/hotelBooking.png" alt="Hotel Booking project" />
             <br />
-            <a href="#">Demo</a>
+            <a
+               href="https://abdelrahmanessama.github.io/HotelBooking/home.html"
+               target="_blank"
+               >Demo</a
+            >
             |
-            <a href="#">Code</a>
+            <a
+               href="https://github.com/AbdelrahmanEssamA/HotelBooking/tree/Back-End"
+               target="_blank"
+               >Code</a
+            >
          </div>
          <div class="portfolio-container transition3">
             <div class="portfolio-left">
@@ -265,16 +314,24 @@
                   <p class="subtitle">EatFit</p>
                   <p class="feature-title">Website</p>
                   <p class="feature-desc">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Similique nulla quam, rem facere libero deleniti velit nam
-                     totam aut ea?
+                     A landing Page For a subscription-based healthy food
+                     provider built from scratch using HTML, CSS, and
+                     Javascript.
                   </p>
                </div>
             </div>
-            <img src="./Pics/eatfit.png" width="100%" alt="" /><br />
-            <a href="#">Demo</a>
+            <img src="./Pics/eatfit.png" alt="EatFit Project" /><br />
+            <a
+               href="https://abdelrahmanessama.github.io/EatFit/"
+               target="_blank"
+               >Demo</a
+            >
             |
-            <a href="#">Code</a>
+            <a
+               href="https://github.com/AbdelrahmanEssamA/EatFit"
+               target="_blank"
+               >Code</a
+            >
          </div>
          <div class="portfolio-container transition3">
             <div class="portfolio-left">
@@ -282,17 +339,21 @@
                   <p class="subtitle">News Website</p>
                   <p class="feature-title">React web-app</p>
                   <p class="feature-desc">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Similique nulla quam, rem facere libero deleniti velit nam
-                     totam aut ea?
+                     Using NewsAPI this app displays the Latest News and Top
+                     headlines with the ability to search for news or get the
+                     data for a country or a from a certain source, built using
+                     React Hooks, Context API and Material UI.
                   </p>
                </div>
             </div>
-            <img src="./Pics/NewsApp.png" width="100%" alt="" />
+            <img src="./Pics/NewsApp.png" alt="News App project" />
             <br />
-            <a href="#">Demo</a>
-            |
-            <a href="#">Code</a>
+
+            <a
+               href="https://github.com/AbdelrahmanEssamA/news-app"
+               target="_blank"
+               >Code</a
+            >
          </div>
          <div class="portfolio-container transition3">
             <div class="portfolio-left">
@@ -300,35 +361,24 @@
                   <p class="subtitle">Github Users</p>
                   <p class="feature-title">React web-app</p>
                   <p class="feature-desc">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Similique nulla quam, rem facere libero deleniti velit nam
-                     totam aut ea?
+                     Using Github APi I utilized the data to display it in a
+                     well formatted design with the ability of searching any
+                     github user with username. Built using React-hooks context
+                     Api,styled components and Auth0
                   </p>
                </div>
             </div>
-            <img src="./Pics/git-user.png" width="100%" alt="" />
+            <img src="./Pics/git-user.png" alt="Github users project" />
             <br />
-            <a href="#">Demo</a>
+            <a href="https://github-users-ae.netlify.app/" target="_blank"
+               >Demo</a
+            >
             |
-            <a href="#">Code</a>
-         </div>
-         <div class="portfolio-container transition3">
-            <div class="portfolio-left">
-               <div class="inner">
-                  <p class="subtitle">Logo Editor</p>
-                  <p class="feature-title">React web-app</p>
-                  <p class="feature-desc">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Similique nulla quam, rem facere libero deleniti velit nam
-                     totam aut ea?
-                  </p>
-               </div>
-            </div>
-
-            <img src="./Pics/logo-editor.png" width="100%" alt="" /><br />
-            <a href="#">Demo</a>
-            |
-            <a href="#">Code</a>
+            <a
+               href="https://github.com/AbdelrahmanEssamA/github-users"
+               target="_blank"
+               >Code</a
+            >
          </div>
          <div class="portfolio-container transition3">
             <div class="portfolio-left">
@@ -336,35 +386,52 @@
                   <p class="subtitle">Chess AI</p>
                   <p class="feature-title">React web-app</p>
                   <p class="feature-desc">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Similique nulla quam, rem facere libero deleniti velit nam
-                     totam aut ea?
+                     AI Agent that plays a reasonable game of chess and Tic Tac
+                     Toe using the min-max algorithm implemented in JavaScript
+                     and the GUI in HTML CSS and JavaScript.
                   </p>
                </div>
             </div>
-            <img src="./Pics/chess.png" width="100%" alt="" />
+            <img src="./Pics/chess.png" alt="Chess Website" />
             <br />
-            <a href="#">Demo</a>
+            <a
+               href="https://abdelrahmanessama.github.io/Chess-Engine/home.html"
+               target="_blank"
+               >Demo</a
+            >
             |
-            <a href="#">Code</a>
+            <a
+               href="https://github.com/AbdelrahmanEssamA/Chess-Engine"
+               target="_blank"
+               >Code</a
+            >
          </div>
+
          <div class="portfolio-container transition3">
             <div class="portfolio-left">
                <div class="inner">
                   <p class="subtitle">Post it</p>
                   <p class="feature-title">React web-app</p>
                   <p class="feature-desc">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Similique nulla quam, rem facere libero deleniti velit nam
-                     totam aut ea?
+                     Developed a posting platform in which a user can post text
+                     images or videos linked from Youtube each post have a
+                     category and maybe a tag. the system allows the user to
+                     filter posts by categories or search for them using tags,
+                     Built using React-hooks, Redux, Material ui
                   </p>
                </div>
             </div>
-            <img src="./Pics/postit.png" width="100%" alt="" />
+            <img src="./Pics/postit.png" alt="Post it project" />
             <br />
-            <a href="#">Demo</a>
+            <a href="https://posting-app-ae.netlify.app/" target="_blank"
+               >Demo</a
+            >
             |
-            <a href="#">Code</a>
+            <a
+               href="https://github.com/AbdelrahmanEssamA/Post_IT"
+               target="_blank"
+               >Code</a
+            >
          </div>
          <div class="portfolio-container transition3">
             <div class="portfolio-left">
@@ -372,19 +439,50 @@
                   <p class="subtitle">Pokedex</p>
                   <p class="feature-title">React web-app</p>
                   <p class="feature-desc">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Similique nulla quam, rem facere libero deleniti velit nam
-                     totam aut ea?
+                     Using PokeApi this App fetches the data of the first 3 gen
+                     Pokemons with the ability to select any one of them to
+                     display more information and live searching feature, built
+                     using React-hooks, Context-API and Material UI.
                   </p>
                </div>
             </div>
-            <img src="./Pics/pokedx.png" width="100%" alt="" />
+            <img src="./Pics/pokedx.png" alt="Pokedex project" />
             <br />
-            <a href="#">Demo</a>
+            <a href="https://pokedex-ae.netlify.app/" target="_blank">Demo</a>
             |
-            <a href="#">Code</a>
+            <a
+               href="https://github.com/AbdelrahmanEssamA/PokeDex-App"
+               target="_blank"
+               >Code</a
+            >
+         </div>
+         <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+               <div class="inner">
+                  <p class="subtitle">Logo Editor</p>
+                  <p class="feature-title">React web-app</p>
+                  <p class="feature-desc">
+                     A simple photo editor allowing user to upload a photo and
+                     allowing him/her to choose logo style: square, flexible
+                     width and rounded,change title's background and text color
+                     and preview the logo.
+                  </p>
+               </div>
+            </div>
+
+            <img src="./Pics/logo-editor.png" alt="Logo editor project" /><br />
+            <a href="https://adoring-allen-9c9e9d.netlify.app" target="_blank"
+               >Demo</a
+            >
+            |
+            <a
+               href="https://github.com/AbdelrahmanEssamA/logoCreator-ImageCarousel"
+               target="_blank"
+               >Code</a
+            >
          </div>
       </section>
+
       <section class="github">
          <h1 class="bg-text">Github Repos</h1>
          <div class="repos">
@@ -393,37 +491,122 @@
                target="_blank"
                ><img
                   src="https://gh-card.dev/repos/AbdelrahmanEssamA/BugLocalization.svg"
+                  alt="Repository for BugLocalization "
             /></a>
             <a
                href="https://github.com/AbdelrahmanEssamA/Sudoku_Solver"
                target="_blank"
                ><img
                   src="https://gh-card.dev/repos/AbdelrahmanEssamA/Sudoku_Solver.svg"
+                  alt="Repository for Sudoku Solver"
             /></a>
             <a
                href="https://github.com/AbdelrahmanEssamA/Post-Grduate-Form-FrontEnd"
                target="_blank"
                ><img
                   src="https://gh-card.dev/repos/AbdelrahmanEssamA/Post-Grduate-Form-FrontEnd.svg"
+                  alt="Repository for Post Graduate Form"
             /></a>
             <a
                href="https://github.com/AbdelrahmanEssamA/SnakeGame"
                target="_blank"
                ><img
                   src="https://gh-card.dev/repos/AbdelrahmanEssamA/SnakeGame.svg"
+                  alt="Repository for Snake Game"
             /></a>
             <a href="https://github.com/AbdelrahmanEssamA/Elevator"
                ><img
                   src="https://gh-card.dev/repos/AbdelrahmanEssamA/Elevator.svg"
+                  alt="Repository for Elevator project"
             /></a>
             <a
                href="https://github.com/AbdelrahmanEssamA/Elearning"
                target="_blank"
                ><img
                   src="https://gh-card.dev/repos/AbdelrahmanEssamA/Elearning.svg"
+                  alt="Repository for E-learning project"
             /></a>
          </div>
+         <hr />
       </section>
-      <section class="Contact-me"></section>
+      <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
+      <svg
+         preserveAspectRatio="none"
+         viewBox="0 0 100 102"
+         height="75"
+         width="100%"
+         version="1.1"
+         xmlns="http://www.w3.org/2000/svg"
+         class="svgcolor-light"
+      >
+         <path d="M0 0 L50 100 L100 0 Z" fill="#fff" stroke="#fff"></path>
+      </svg>
+      <section class="contact-me">
+         <h1>Contact Me</h1>
+         <div class="frame">
+            <a
+               href="https://github.com/AbdelrahmanEssamA"
+               target="_blank"
+               class="btn"
+            >
+               <i class="fab fa-github-square fa-lg" style="color: #000"></i>
+            </a>
+            <a
+               href="https://abdelrahman155295.itch.io"
+               target="_blank"
+               class="btn"
+            >
+               <i class="fas fa-gamepad fa-lg" style="color: #ea4c89"></i>
+            </a>
+            <a
+               href="https://www.linkedin.com/in/abdelrahman-essam-arabi97/"
+               target="_blank"
+               class="btn"
+            >
+               <i class="fab fa-linkedin-in fa-lg" style="color: #0e76a8"></i>
+            </a>
+            <a
+               href="https://leetcode.com/abdelrahmanea97/"
+               target="_blank"
+               class="btn"
+            >
+               <i class="fas fa-code fa-lg" style="color: #e8a200"></i>
+            </a>
+            <a
+               href="mailto:Abdelrahmanea97@gmail.com"
+               target="_blank"
+               class="btn"
+            >
+               <i class="far fa-envelope fa-lg"></i>
+            </a>
+         </div>
+      </section>
+      <div class="to-top">
+         <a href="#" class="go-up"
+            ><i class="fas fa-arrow-circle-up fa-3x"></i
+         ></a>
+      </div>
+      <div class="bye-container">
+         <div class="bye">
+            <img
+               class="bye-transition"
+               src="./Pics/bye-Avatar.png"
+               alt="Avatar waving"
+            />
+         </div>
+      </div>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
+         integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"
+         integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg=="
+         crossorigin="anonymous"
+      ></script>
+
+      <script src="./animation.js"></script>
+      <script src="./script.js"></script>
    </body>
 </html>
