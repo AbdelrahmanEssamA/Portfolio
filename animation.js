@@ -81,7 +81,7 @@ gsap.from(".bye-transition", {
       trigger: ".bye-transition",
       start: "top bottom",
    },
-   x: 60,
+   y: 60,
    opacity: 0,
    duration: 1.2,
 });
