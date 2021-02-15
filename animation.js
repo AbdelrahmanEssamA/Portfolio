@@ -75,13 +75,3 @@ gsap.from(".transition3", {
    duration: 1.2,
    stagger: 0.4,
 });
-
-gsap.from(".bye-transition", {
-   scrollTrigger: {
-      trigger: ".bye-transition",
-      start: "top bottom",
-   },
-   y: 60,
-   opacity: 0,
-   duration: 1.2,
-});
