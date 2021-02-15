@@ -41,5 +41,5 @@ document.querySelector(".to-contact").addEventListener("click", function (e) {
 //Animating to top
 document.querySelector(".go-up").addEventListener("click", function (e) {
    e.preventDefault();
-   smoothScroll(".hero", 2500);
+   smoothScroll(".logo", 2500);
 });
