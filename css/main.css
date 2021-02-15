@@ -229,6 +229,10 @@ section {
   font-weight: 500;
 }
 
+.inner {
+  overflow: hidden;
+}
+
 /* ---------- Skills ---------- */
 .skills {
   background-color: var(--clr-pink);
