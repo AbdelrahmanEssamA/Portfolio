@@ -179,6 +179,7 @@ section {
 /* ---------- Features ----------*/
 .feature {
   position: relative;
+  overflow: hidden;
 }
 
 .feature::before {
