@@ -70,9 +70,9 @@ gsap.from(".transition3", {
       trigger: ".transition3",
       start: "top center",
    },
-   y: 60,
+   y: 50,
    opacity: 0,
-   duration: 1.2,
+   duration: 0.7,
    stagger: 0.4,
 });
 
