@@ -3,7 +3,7 @@ var tl = gsap.timeline();
 tl.from(".content", {
    y: "-40%",
    opacity: 0,
-   duration: 2,
+   duration:1,
    ease: Power4.easeOut,
 });
 tl.from(
@@ -12,7 +12,7 @@ tl.from(
       opacity: 0,
       y: -50,
       stagger: 0.3,
-      duration: 1.6,
+      duration: 0.7,
       ease: Power4.easeOut,
    },
    "-=1.5"
@@ -23,7 +23,7 @@ tl.from(
       opacity: 0,
       x: -50,
       stagger: 0.2,
-      duration: 1.6,
+      duration:0.7,
       ease: Power4.easeOut,
    },
    "-=1.5"
@@ -34,14 +34,14 @@ tl.from(
       opacity: 0,
       y: 50,
       ease: Power4.easeOut,
-      duration: 1,
+      duration: 0.7,
    },
    "-=2"
 );
 gsap.from(".square-anim", {
    stagger: 0.2,
    scale: 0.1,
-   duration: 1.2,
+   duration: 0.7,
    ease: Back.easeOut.config(1.7),
 });
 gsap.from(".avatar-transition", {
@@ -51,7 +51,7 @@ gsap.from(".avatar-transition", {
    },
    y: 60,
    opacity: 0,
-   duration: 1,
+   duration: 0.7,
    stagger: 0.3,
 });
 
@@ -62,7 +62,7 @@ gsap.from(".transition2", {
    },
    y: 60,
    opacity: 0,
-   duration: 1.2,
+   duration: 0.7,
    stagger: 0.3,
 });
 gsap.from(".transition3", {
@@ -83,5 +83,5 @@ gsap.from(".bye-transition", {
    },
    y: 60,
    opacity: 0,
-   duration: 1.2,
+   duration: 0.7,
 });
