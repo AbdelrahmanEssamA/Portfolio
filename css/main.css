@@ -81,8 +81,8 @@ header ul a {
   display: block;
   padding: 0.5em 1em;
   font-size: 0.9rem;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 header ul a:hover {
@@ -155,8 +155,8 @@ section {
   border: 0;
   border-radius: var(--radius);
   font-size: 1em;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -196,7 +196,7 @@ section {
 }
 
 .tech {
-  padding-top: 1.5em;
+  padding-top: 4.5em;
   width: 100%;
 }
 
@@ -205,14 +205,14 @@ section {
   font-weight: bold;
   color: var(--clr-light-purple);
   font-size: 0.9em;
-  padding: 0.6em;
+  padding: 0em;
 }
 
 .feature-title {
   color: var(--clr-deepBlack);
   font-weight: bold;
   font-size: 1.3em;
-  margin-top: -0.4em;
+  margin-top: .4em;
   display: block;
 }
 
@@ -275,6 +275,7 @@ section {
   -webkit-backdrop-filter: blur(7px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 1em;
+  padding-top: .4rem;
   margin-top: 1em;
   margin-bottom: 1em;
   border-radius: var(--radius);
@@ -282,8 +283,8 @@ section {
 
 .portfolio-container a {
   color: var(--clr-dark-purple);
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   margin: auto;
   font-size: 1.1em;
 }
@@ -348,8 +349,8 @@ section {
   height: 90px;
   width: 330px;
   position: relative;
-  -webkit-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
-          box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+  -webkit-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+          box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
   -webkit-transition: -webkit-box-shadow 0.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
   transition: -webkit-box-shadow 0.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
   transition: box-shadow 0.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
@@ -377,8 +378,8 @@ section {
           align-items: center;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
-  -webkit-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
-          box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+  -webkit-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+          box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
   -webkit-transition: -webkit-box-shadow 1s cubic-bezier(0.79, 0.21, 0.06, 0.81);
   transition: -webkit-box-shadow 1s cubic-bezier(0.79, 0.21, 0.06, 0.81);
   transition: box-shadow 1s cubic-bezier(0.79, 0.21, 0.06, 0.81);
@@ -428,7 +429,7 @@ section {
   .feature {
     padding-left: 2em;
     text-align: left;
-    padding-top: 2em;
+    padding-top: 8rem;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 50%;

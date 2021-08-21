@@ -34,7 +34,7 @@ tl.from(
       opacity: 0,
       y: 50,
       ease: Power4.easeOut,
-      duration: 0.7,
+      duration: 0.2,
    },
    "-=2"
 );
@@ -42,7 +42,7 @@ gsap.from(".square-anim", {
    stagger: 0.2,
    scale: 0.1,
    duration: 0.7,
-   ease: Back.easeOut.config(1.7),
+   ease: Back.easeOut.config(1.4),
 });
 gsap.from(".avatar-transition", {
    scrollTrigger: {
@@ -62,7 +62,7 @@ gsap.from(".transition2", {
    },
    y: 60,
    opacity: 0,
-   duration: 0.7,
+   duration: 0.4,
    stagger: 0.3,
 });
 gsap.from(".transition3", {
@@ -72,7 +72,7 @@ gsap.from(".transition3", {
    },
    y: 50,
    opacity: 0,
-   duration: 0.7,
+   duration: 0.4,
    stagger: 0.4,
 });
 
@@ -83,5 +83,5 @@ gsap.from(".bye-transition", {
    },
    y: 60,
    opacity: 0,
-   duration: 0.7,
+   duration: 0.4,
 });
