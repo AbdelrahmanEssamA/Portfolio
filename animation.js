@@ -39,6 +39,7 @@ tl.from(
    "-=2"
 );
 gsap.from(".square-anim", {
+   opacity: 0,
    stagger: 0.2,
    scale: 0.1,
    duration: 0.7,
