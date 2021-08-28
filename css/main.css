@@ -667,6 +667,7 @@ h1 span:hover {
       scroll-snap-type: x mandatory;
   scroll-padding: 0px 1.25rem;
   scrollbar-width: none;
+  padding: 10px;
 }
 
 .main .scroll::-webkit-scrollbar {
