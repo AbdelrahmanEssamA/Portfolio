@@ -676,7 +676,7 @@ h1 span:hover {
 }
 
 .main .scroll .card {
-  width: 20rem;
+  width: 22rem;
   height: auto;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
@@ -690,9 +690,10 @@ h1 span:hover {
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
   border: 1px solid rgba(255, 255, 255, 0.18);
-  padding: 0.5rem;
-  margin: 1rem;
+  padding: 0.5rem 0.7rem;
+  padding-top: 0;
+  margin: 0.7rem;
   border-radius: var(--radius);
-  min-height: 510px;
+  min-height: 520px;
 }
 /*# sourceMappingURL=main.css.map */
