@@ -658,16 +658,15 @@ h1 span:hover {
           align-items: center;
   width: 100%;
   height: auto;
-  padding: 1rem 0;
+  padding: 0 2rem;
   margin: 2.5rem 0;
   margin-top: 10px;
   cursor: default;
   overflow: scroll hidden;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
-  scroll-padding: 0px 1.25rem;
+  scroll-padding: 10px 1.25rem;
   scrollbar-width: none;
-  padding: 10px;
 }
 
 .main .scroll::-webkit-scrollbar {
@@ -689,14 +688,14 @@ h1 span:hover {
   outline: none;
   color: #252a32;
   background: rgba(255, 255, 255, 0.192);
-  -webkit-box-shadow: 0 8px 15px 0 rgba(31, 38, 135, 0.37);
-          box-shadow: 0 8px 15px 0 rgba(31, 38, 135, 0.37);
+  -webkit-box-shadow: 0 3px 8px 0 rgba(88, 27, 128, 0.253);
+          box-shadow: 0 3px 8px 0 rgba(88, 27, 128, 0.253);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 0.5rem 0.7rem;
   padding-top: 0;
-  margin: 1rem;
+  margin: 1.2rem;
   margin-left: 0.3rem;
   border-radius: var(--radius);
   min-height: 520px;
