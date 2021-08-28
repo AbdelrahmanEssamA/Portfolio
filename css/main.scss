@@ -475,6 +475,9 @@ h1 span {
   .header {
     padding: 2em 2em 2em 12em;
   }
+  .card {
+    margin-left: 1rem;
+  }
   .intro {
     margin-top: 0;
     font-size: 28px;
@@ -595,6 +598,7 @@ $color-red: #d32f2f;
       padding: 0.5rem 0.7rem;
       padding-top: 0;
       margin: 1rem;
+      margin-left: 0.3rem;
       border-radius: var(--radius);
       min-height: 520px;
     }
